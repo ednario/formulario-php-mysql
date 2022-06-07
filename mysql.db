@@ -1,0 +1,29 @@
+CREATE DATABASE `hardcodeform` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci ;
+
+USE hardcodeform;
+
+CREATE TABLE `hardcodeform`.`concorrentes` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(55) NOT NULL,
+  `email` VARCHAR(110) NOT NULL,
+  `datanasc` DATE NOT NULL,
+  `telefone` VARCHAR(15) NOT NULL,
+  `cidade` VARCHAR(45) NOT NULL,
+  `reside_jn` VARCHAR(45) NOT NULL,
+  `homeoffice` VARCHAR(45) NOT NULL,
+  `meio_periodo` VARCHAR(45) NOT NULL,
+  `possui_comp` VARCHAR(45) NOT NULL, 
+  `possui_smartphone` VARCHAR(45) NOT NULL,
+  `concorrentescol` VARCHAR(45) NOT NULL,
+  `area` VARCHAR(45) NOT NULL,
+  `wordpress` VARCHAR(45) NOT NULL,
+  `elementor` VARCHAR(45) NOT NULL,
+  `nocode_lowcode` VARCHAR(45) NOT NULL,
+  `nivel_profissional` VARCHAR(45) NOT NULL,
+  `experiencia` VARCHAR(45) NOT NULL,
+  `freelancer` VARCHAR(45) NOT NULL,
+  `exame` VARCHAR(45) NOT NULL,
+  `ingles` VARCHAR(45) NOT NULL,
+  `modelo_contrato` VARCHAR(45) NOT NULL,
+  `possui_empresa_aberta` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
