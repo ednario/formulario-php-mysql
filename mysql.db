@@ -1,8 +1,8 @@
-CREATE DATABASE `hardcodeform` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci ;
+CREATE DATABASE `namedb` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci ;
 
-USE hardcodeform;
+USE namedb;
 
-CREATE TABLE `hardcodeform`.`concorrentes` (
+CREATE TABLE `concorrentes` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(55) NOT NULL,
   `email` VARCHAR(110) NOT NULL,
